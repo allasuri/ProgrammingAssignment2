@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The below functions creates a wrapper object around a matrix that can optionally store
+## its inverse. exposes setters and getters for both. invalidates
+## cache on set.
 
-## Write a short comment describing this function
+
 
 makeCacheMatrix <- function(x = matrix()) {
          inverse <- NULL
